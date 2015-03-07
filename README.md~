@@ -1,0 +1,18 @@
+SpaceRiot0.0.4
+==============
+
+Bug fixes/tweaks.
+
+1.  Score loop. This was looping until the start screen was exited. fixed this by moving to an after an "For after click statement." So it's only called once.
+
+2. Exit Window being clicked but not exiting all the way. Fixed this by calling exit() after pygame.quit so if you exit the window it doesn't start the game, it exits all the way.
+
+3. Added a speed boost pickup class.
+
+4. Added laser graphics.
+
+5. Code organizing and optimization. #Can not get enough of this.
+
+6. Added fullscreen mode.
+
+7. Incoming soundtrack.
