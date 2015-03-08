@@ -33,7 +33,7 @@ class Control(object):
         self.level = 1
         self.high_score = 0
         self.shields = 0
-        self.explosion.rect = self.blocks.rect.copy
+        self.explosion.rect = 0
         self.explosions = []
         self.explosion = Explosion(self.screen, Vector(0, 0), max_power=5, max_radius=35)
 
