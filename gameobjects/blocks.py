@@ -1,6 +1,6 @@
 import random
 import pygame as pg
-
+import copy
 
 class Block(pg.sprite.Sprite):
     """This class represents the block."""
@@ -20,3 +20,6 @@ class Block(pg.sprite.Sprite):
         self.rect.y += self.speed
         if self.rect.y > screen_rect.bottom:
             self.reset_pos(screen_rect)
+
+    def get_copy(self):
+        return copy.copy(self)
