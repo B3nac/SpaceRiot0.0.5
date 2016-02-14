@@ -10,6 +10,8 @@ class Player(pg.sprite.Sprite):
         self.image = image
         self.rect = self.image.get_rect(topleft=position)
         self.speed = 5
+        self.score = 0
+        self.high_score = 0
 
     def shoot(self, *groups):
         """Create a bullet and add it to groups."""
@@ -22,7 +24,5 @@ class Player(pg.sprite.Sprite):
                 self.rect.x += a.DIRECT_DICT[key][0]*self.speed
                 self.rect.y += a.DIRECT_DICT[key][1]*self.speed
         self.rect.clamp_ip(screen_rect) #Keep player on screen.
-        
-    def get_copy(self):
-        return copy.copy(self)
+
 
