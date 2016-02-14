@@ -14,8 +14,6 @@ from gameobjects import speedpowerup
 from gameobjects import galaxywh
 from gamedata import player
 from gamedata import bullet
-from explosion import Explosion
-from vector import Vector
 
 class Control(object):
     """Class that manages primary conrol flow for the whole program."""
