@@ -1,6 +1,4 @@
 Windows exe here --> http://b3nac.itch.io/space-riot.
-Development blog here --> http://b3nac.tumblr.com/
-All my soundtracks are on my soundcloud --> https://soundcloud.com/ldk-16
 
 Current bug fixes and development details below.
 
